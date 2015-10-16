@@ -1,0 +1,9 @@
+language: python
+python:
+  - "2.7"
+  - "3.4"
+  - "3.5"
+  - "pypy"
+  - "pypy3"
+  - "nightly"
+script: python types_c_def.py ; python comparison.py
