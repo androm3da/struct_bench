@@ -1,5 +1,5 @@
 
-# struct_bench
+# `struct_bench`
 Just a quick benchmark for trivial data structures.
 
 What's faster?  Creating an object?  Creating an instance of a `namedtuple`?  
