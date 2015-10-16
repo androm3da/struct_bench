@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 from _cstruct import ffi as cs_ffi, lib as cs_lib
 
