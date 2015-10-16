@@ -6,4 +6,4 @@ python:
   - "pypy"
   - "pypy3"
   - "nightly"
-script: python types_c_def.py ; python comparison.py
+script: python types_c_def.py ; python comparison.py ; ./test.sh
