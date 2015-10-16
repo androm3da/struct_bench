@@ -6,4 +6,5 @@ python:
   - "pypy"
   - "pypy3"
   - "nightly"
+install: pip install -e .
 script: python types_c_def.py ; python comparison.py ; ./test.sh
