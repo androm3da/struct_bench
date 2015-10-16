@@ -3,8 +3,8 @@ python:
   - "2.7"
   - "3.4"
   - "3.5"
-  - "pypy"
-  - "pypy3"
+#  - "pypy"  the libffi travis has doesn't seem to work w/this interface
+#  - "pypy3" the libffi travis has doesn't seem to work w/this interface
   - "nightly"
 install: pip install -e .
 script: ./types_c_def.py ; ./comparison.py
